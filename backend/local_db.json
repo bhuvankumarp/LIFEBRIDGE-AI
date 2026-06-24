@@ -1,0 +1,176 @@
+{
+  "incidents": [
+    {
+      "id": "inc-001",
+      "type": "flood",
+      "title": "Severe Flooding in Sector 4 Safe Zone Perimeter",
+      "description": "Water levels rising near the river bank. Evacuation recommended for low-lying areas.",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946,
+        "name": "Sector 4, Central Region"
+      },
+      "severity": "high",
+      "status": "active",
+      "timestamp": "2026-06-22T20:28:25.485214",
+      "reported_by": "System Drone Monitor"
+    },
+    {
+      "id": "inc-002",
+      "type": "fire",
+      "title": "Industrial Warehouse Fire",
+      "description": "Chemical smoke detected. Firefighters dispatched. Residents advised to keep windows closed.",
+      "location": {
+        "lat": 12.9816,
+        "lng": 77.6046,
+        "name": "Industrial Area, East Sector"
+      },
+      "severity": "high",
+      "status": "active",
+      "timestamp": "2026-06-22T20:28:25.485259",
+      "reported_by": "Crowd Report"
+    },
+    {
+      "id": "inc-003",
+      "type": "road_blockage",
+      "title": "Landslide Road Blockage on Highway 2A",
+      "description": "Major debris blocking both lanes. Clearance crew en route. Use detour Route B.",
+      "location": {
+        "lat": 12.9616,
+        "lng": 77.5846,
+        "name": "Highway 2A, South Ridge"
+      },
+      "severity": "medium",
+      "status": "active",
+      "timestamp": "2026-06-22T20:28:25.485263",
+      "reported_by": "Highway Police"
+    }
+  ],
+  "shelters": [
+    {
+      "id": "she-001",
+      "name": "Central Community Shelter",
+      "location": {
+        "lat": 12.975,
+        "lng": 77.591
+      },
+      "capacity": 500,
+      "occupied": 320,
+      "resources": {
+        "food": 85,
+        "water": 90,
+        "medicine": 70,
+        "blankets": 60
+      },
+      "status": "operating"
+    },
+    {
+      "id": "she-002",
+      "name": "East Ridge Shelter",
+      "location": {
+        "lat": 12.985,
+        "lng": 77.611
+      },
+      "capacity": 300,
+      "occupied": 280,
+      "resources": {
+        "food": 30,
+        "water": 40,
+        "medicine": 20,
+        "blankets": 45
+      },
+      "status": "critical_resources"
+    },
+    {
+      "id": "she-003",
+      "name": "South Stadium Shelter",
+      "location": {
+        "lat": 12.955,
+        "lng": 77.581
+      },
+      "capacity": 1000,
+      "occupied": 150,
+      "resources": {
+        "food": 95,
+        "water": 95,
+        "medicine": 90,
+        "blankets": 90
+      },
+      "status": "operating"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "vol-001",
+      "name": "Amit Sharma",
+      "skills": [
+        "first_aid",
+        "swimming",
+        "rescue"
+      ],
+      "availability": "immediate",
+      "location": {
+        "lat": 12.972,
+        "lng": 77.596,
+        "name": "Central District"
+      },
+      "phone": "+91 98765 43210"
+    },
+    {
+      "id": "vol-002",
+      "name": "Priya Patel",
+      "skills": [
+        "cooking",
+        "logistics",
+        "counseling"
+      ],
+      "availability": "weekends",
+      "location": {
+        "lat": 12.988,
+        "lng": 77.602,
+        "name": "East Sector"
+      },
+      "phone": "+91 98765 43211"
+    }
+  ],
+  "volunteer_requests": [],
+  "family_safety": [
+    {
+      "id": "fam-001",
+      "name": "Karan Johar",
+      "status": "safe",
+      "location": "Central Shelter",
+      "last_updated": "2026-06-22T20:28:25.485273"
+    },
+    {
+      "id": "fam-002",
+      "name": "Sunita Johar",
+      "status": "need_help",
+      "location": "Sector 4 Area",
+      "last_updated": "2026-06-22T20:28:25.485276"
+    }
+  ],
+  "sos_alerts": [],
+  "news": [
+    {
+      "id": "news-001",
+      "level": "critical",
+      "summary": "Severe weather alert: Heavy rainfall predicted for the next 24 hours. Red Alert issued.",
+      "actions": [
+        "Stay indoors",
+        "Move to higher ground if in low-lying zones",
+        "Keep power banks charged"
+      ],
+      "timestamp": "2026-06-22T20:28:25.485279"
+    },
+    {
+      "id": "news-002",
+      "level": "info",
+      "summary": "Central Community Shelter has received a fresh shipment of medical supplies and baby food.",
+      "actions": [
+        "Contact local control room for distribution details"
+      ],
+      "timestamp": "2026-06-22T20:28:25.485282"
+    }
+  ]
+}
