@@ -16,6 +16,19 @@ This platform represents a startup-grade emergency response application optimize
 
 ---
 
+## 📐 System Architecture
+
+The platform follows a decoupled client-server architecture designed to run reliably both in online and offline-first contexts:
+
+![LifeBridge AI System Architecture](./architecture_diagram.png)
+
+- **Next.js 15 Frontend**: Renders the responsive dark-themed visual command dashboard, handles HTML5 audio recordings for voice control, tracks user positions, and renders real-time state tracing for the agent workflows.
+- **FastAPI Backend**: Orchestrates the multi-agent coordinate pipeline, performs image data parsing for the damage vision agent, and operates the local simulation engine.
+- **Google Gemini API (`gemini-1.5-flash`)**: Powers agent reasoning, query classification, medical first-aid triage advice, and risk analysis.
+- **Simulation Fallback Engine**: Enables full functionality in isolated offline environments. The backend automatically switches to simulation mode when no Gemini API key is configured, utilizing rule-based heuristics and local JSON seed databases.
+
+---
+
 ## 🤖 Cooperative Multi-Agent Workflow
 
 When a citizen files a distress report, the platform initiates a sequential coordination pipeline using 8 specialized AI agents. This workflow is visually represented below:
