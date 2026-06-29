@@ -6,6 +6,12 @@ This platform represents a startup-grade emergency response application optimize
 
 ---
 
+# 🚀 Live Demo
+
+- 🌐 **Frontend:** https://lifebridge-ai.vercel.app
+- ⚙️ **Backend API:** https://lifebridge-ai-production-adc6.up.railway.app
+- 📖 **API Documentation:** https://lifebridge-ai-production-adc6.up.railway.app/docs
+
 ## 🛠️ Tech Stack & Architecture
 
 - **Frontend**: Next.js 15 (React), Tailwind CSS v4, HTML5 Web Speech API (Multilingual TTS/STT).
